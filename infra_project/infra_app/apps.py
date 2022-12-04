@@ -2,4 +2,4 @@ from django.apps import AppConfig
 
 
 class InfraAppConfig(AppConfig):
-    name = 'infra_app' # nen
+    name = 'infra_app'
