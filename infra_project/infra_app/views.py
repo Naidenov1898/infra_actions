@@ -1,9 +1,9 @@
-from django.http import Http404
+from django.http import HttpResponse
 
 
 def index(request):
-    return Http404('У меня получилось!')
+    return request(HttpResponse('У меня получилось!'))
 
 
 def second_page(request):
-    return Http404('А это вторая страница')
+    return request(HttpResponse('А это вторая страница'))
